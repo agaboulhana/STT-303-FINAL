@@ -1,11 +1,11 @@
 
-# 📊 Gene Expression Analysis with GTEx (STT 303 Final Project)
+#  Gene Expression Analysis with GTEx (STT 303 Final Project)
 
 ## Overview
 
 This project was designed to explore patterns in human gene expression using RNA-seq data from the [GTEx (Genotype-Tissue Expression) Project](https://gtexportal.org/home/). The analysis aimed to investigate how gene expression varies across tissues, sexes, and age groups using both **supervised and unsupervised learning methods** in R.
 
-## 🧬 Goals
+##  Goals
 
 - Identify highly variable genes across tissue types.
 - Explore sex-linked differences in expression.
@@ -13,14 +13,14 @@ This project was designed to explore patterns in human gene expression using RNA
 - Classify **tissue types** and **biological sex** using gene profiles.
 - Perform PCA and clustering to uncover structure in gene expression.
 
-## 🧪 Tools & Technologies
+##  Tools & Technologies
 
 - **Language**: R
 - **Libraries**: tidyverse, caret, cluster, pROC, factoextra, heatmaply, matrixStats
 
 ---
 
-## ⚠️ What Went Wrong
+##  What Went Wrong
 
 Despite having a well-structured pipeline, the project encountered several key issues that blocked full execution:
 
@@ -32,7 +32,7 @@ Despite having a well-structured pipeline, the project encountered several key i
 
 ---
 
-## 🔧 What Worked
+##  What Worked
 
 - Successfully read in and subset GTEx gene expression and metadata.
 - Performed log transformation and variance-based filtering on genes.
@@ -42,7 +42,7 @@ Despite having a well-structured pipeline, the project encountered several key i
 
 ---
 
-## 🛠️ How I Would Fix It
+##  How I Would Fix It
 
 For a more successful and reproducible analysis in the future, I would:
 
@@ -55,14 +55,14 @@ For a more successful and reproducible analysis in the future, I would:
 
 ---
 
-## 📁 Files
+##  Files
 
 - `FINAL 222.R` – Full R script for analysis pipeline
 - GTEx data and metadata (downloaded separately from the GTEx portal)
 
 ---
 
-## 👩‍🔬 Author
+##  Author
 
 **Amina Aboulhana**  
 Senior, STT 303: Data Science with R  
